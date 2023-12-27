@@ -3,7 +3,7 @@ const router = require("./router");
 const app = express()
 
 
-app.use("/app",router)
+app.use("/",router)
 
 
 app.listen(8080,()=>{
